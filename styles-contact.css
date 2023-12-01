@@ -214,6 +214,7 @@ a{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
+	transition: transform .5s;
 }
 
 a:hover{
