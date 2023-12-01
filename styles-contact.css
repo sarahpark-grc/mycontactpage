@@ -122,6 +122,8 @@ audio {
 	18.1%{transform:translatex(-2000px)}
 }
 
+
+
 #dance {
 	right:100px;
 	display: inline;
@@ -169,6 +171,14 @@ h2 {
 	padding-right: 10%;
 }
 
+h3 {
+	color:#fff;
+	font-family:"tomarik-display-shadow",sans-serif;
+	display: inline-block;
+	padding-left:15px;
+	padding-right:5px;
+}
+
 p {
 	font-family: "p22-yule", sans-serif;
 	font-size: 1.2em;
@@ -177,27 +187,25 @@ p {
 	padding-left:10%;
 	padding-right: 10%;
 }
+
 nav{
 	font-family: "p22-yule", sans-serif;
 	font-size: 1.2em;;
 	margin: 0 auto;
-	margin-left:1em;
-	
 	text-align: center;
 	position: fixed;
 	top: 0;
 	background-color: #444;
-
 }
 
 nav li{
 	display: inline;
+	
 }
 
 nav a{
-	display: inline-block;
+	display: inline-block;	
 	padding: 10px;
-	
 }
   
 a{
