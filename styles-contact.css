@@ -74,14 +74,14 @@ audio {
 	padding-top:30%;
 }
 .center {
-    width: cover;
+    height: cover;
 	text-align: center;
 }
 
 .about {
 	background-color:#444;
 	color: #fff;
-	height: cover;
+	width: cover;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	margin:2%;
@@ -239,11 +239,11 @@ body {
 
 @keyframes winifred {
 	0% {right:-80%;}
-	5% {transform:translatex(5px);right:-80%;}
-	13% {transform:translatex(-20px);right:-80%;}
-	20% {transform:translatex(20px);right:-80%;}
-	35% {transform: translatex(30px);right:-80%;}
-	40% {transform:translatex(-1000px);right:-80%;}
-	55% {transform:translatex(1000px);right:-80%;}
-	70% {transform:translatex(-35px);right:-80%}
+	5% {transform:translatex(2%);right:-80%;}
+	13% {transform:translatex(-2%);right:-80%;}
+	20% {transform:translatex(2%);right:-80%;}
+	35% {transform: translatex(3%);right:-80%;}
+	40% {transform:translatex(-80%);right:-80%;}
+	55% {transform:translatex(80%);right:-80%;}
+	70% {transform:translatex(-3%);right:-80%}
 }
