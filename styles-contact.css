@@ -99,7 +99,7 @@ audio {
 }
 
 #logo {
-    margin-bottom: 200px;
+    margin-bottom: 10%;
 	text-align: center;
 }
 
@@ -125,9 +125,10 @@ audio {
 
 
 #dance {
-	right:100px;
+	right:10%;
 	display: inline;
 	float: right;
+	width:20%;
 	padding-right: 5%;
 	padding-top: 0%;
 	animation-name: frederick;
@@ -153,6 +154,7 @@ audio {
 	animation-iteration-count: infinite;
 	float:left;
 	margin-top:10%;
+	width: 80%;
 }
 
 h1 {
