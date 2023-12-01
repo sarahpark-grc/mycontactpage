@@ -234,16 +234,16 @@ body {
 	position:relative;
 	max-width: 100%;
 	animation-iteration-count:infinite;
-	right:-1100px;
+	right:-80%;
 }
 
 @keyframes winifred {
-	0% {right:-1100px;}
-	5% {transform:translatex(5px);right:-1100px;}
-	13% {transform:translatex(-20px);right:-1100px;}
-	20% {transform:translatex(20px);right:-1100px;}
-	35% {transform: translatex(30px);right:-1100px;}
-	40% {transform:translatex(-1000px);right:-1100px;}
-	55% {transform:translatex(1000px);right:-1100px;}
-	70% {transform:translatex(-35px);right:-1100px}
+	0% {right:-80%;}
+	5% {transform:translatex(5px);right:-80%;}
+	13% {transform:translatex(-20px);right:-80%;}
+	20% {transform:translatex(20px);right:-80%;}
+	35% {transform: translatex(30px);right:-80%;}
+	40% {transform:translatex(-1000px);right:-80%;}
+	55% {transform:translatex(1000px);right:-80%;}
+	70% {transform:translatex(-35px);right:-80%}
 }
