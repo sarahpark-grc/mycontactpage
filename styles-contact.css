@@ -98,6 +98,30 @@ audio {
 	padding-bottom:50%;
 }
 
+#pufferfish {
+	float:left;
+	display:inline;
+	position:-50%;
+	animation-name: james;
+	animation-duration: 50s;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+}
+
+@keyframes james {
+	10% {transform:translate(900%, -200%);}
+	20% {transform:translate(10%, -700%);}
+	30% {transform:translate(400%, -1100%);}
+	42% {transform:translate(900%, -800%);}
+	57% {transform:translate(10%, 200%);}
+	67% {transform:translate(800%, 800%);}
+	70% {transform:translate(900%, 700%);}
+	80% {transform:translate(10%, 500%);}
+	90% {transform:translate(900%, 400%);}
+
+}
+
+
 #logo {
     margin-bottom: 10%;
 	text-align: center;
@@ -118,8 +142,9 @@ audio {
 }
 /*animating name to slide out to the right and slide in from the left*/
 @keyframes myname {
-	18%{transform:translateX(2000px)}
-	18.1%{transform:translatex(-2000px)}
+	18%{transform:translateX(200%)}
+	18.1%{transform:translatex(-200%)}
+
 }
 
 
@@ -158,14 +183,14 @@ audio {
 }
 
 h1 {
-	font-family: "p22-yule-klein", sans-serif;
+	font-family:"tomarik-display-shadow", sans-serif;
 	font-size: 6em;
 	padding-left: 10%;
 	padding-right: 10%;
 }
 
 h2 {
-	font-family: "p22-yule-klein", sans-serif;
+	font-family:"tomarik-display-shadow", sans-serif;
 	font-size: 1.5em;
     line-height: 1.4;
 	padding-top: 2%;
